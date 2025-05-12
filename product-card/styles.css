@@ -20,10 +20,17 @@ html {
 .card-wrapper {
     width: 50rem;
     height: 70rem;
-    background: #ccc;
     padding: 0 10rem;
     display: grid;
     place-items: center;
+}
+
+.card {
+    width: 30rem;
+    height: 55rem;
+    background: #eee;
+    border-radius: 2.5rem;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.7);
 }
 
 .logo {
