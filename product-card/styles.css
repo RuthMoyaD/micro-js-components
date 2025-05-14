@@ -49,6 +49,13 @@ html {
 .card-top-text {
     color: #fff;
 }
+
+.card-top-text h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
 .soap-1 {
     width: 30rem;
 }
