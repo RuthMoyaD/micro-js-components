@@ -43,8 +43,12 @@ html {
 
 .logo {
     width: 8rem;
+    margin-bottom: 2rem;
 }
 
+.card-top-text {
+    color: #fff;
+}
 .soap-1 {
     width: 30rem;
 }
