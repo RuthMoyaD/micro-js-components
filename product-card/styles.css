@@ -129,3 +129,34 @@ html {
     font-size: 1.3rem;
     margin-right: 2.5rem;
 }
+
+.scent h4 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.scents {
+    display: flex;
+}
+
+.scent-1,
+.scent-2 {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+}
+
+.scent-1 {
+    background: #f1ae04;
+    margin-right: 1.5rem;
+    box-shadow: 0rem 1rem 2rem rgba(28, 71, 122, 0.2);
+}
+
+.scent-2 {
+    background: #047d9b;
+    box-shadow: 0rem 1rem 2rem rgba(28, 71, 122, 0.2);
+}
