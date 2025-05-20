@@ -40,13 +40,17 @@ html {
     background: #f1ae04;
     padding: 3rem;
     border-radius: 20px 20px 0 0;
+    transition: background 0.5s;
+}
+
+.container.change .card-top {
+    background: #25d390;
 }
 
 .logo {
-    width: 8rem;
-    margin-bottom: 2rem;
+  width: 8rem;
+  margin-bottom: 2rem;
 }
-
 .card-top-text {
     color: #fff;
 }
@@ -174,6 +178,11 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.5s;
+}
+
+.container.change .price {
+    background: #f1ae04;
 }
 
 .price span {
