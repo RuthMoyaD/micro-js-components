@@ -63,6 +63,18 @@ html {
   animation: swingAnim 20s -4s infinite ease-in-out;
 }
 
+.swing-3 {
+  animation: swingAnim 20s -8s infinite ease-in-out;
+}
+
+.swing-4 {
+  animation: swingAnim 20s -12s infinite ease-in-out;
+}
+
+.swing-5 {
+  animation: swingAnim 20s -16s infinite ease-in-out;
+}
+
 @keyframes swingAnim {
   0% {
     transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(100rem);
