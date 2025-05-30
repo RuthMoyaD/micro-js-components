@@ -1,6 +1,6 @@
 # Micro JS Components
 
-A collection of micro JavaScript components for testing and experimentation. This repository is a playground for building and testing small, reusable UI components.
+A collection of micro JavaScript components for learning and experimentation. This repository is a playground for building and testing small, reusable UI components.
 
 ## 🚧 Work in Progress
 
