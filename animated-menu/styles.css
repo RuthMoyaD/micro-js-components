@@ -16,3 +16,29 @@ html {
   background-color: #191c1c;
   perspective: 40rem;
 }
+
+.menu {
+  width: 100%;
+  padding: 0 25rem;
+  display: flex;
+  justify-content: space-evenly;
+  transform-style: preserve-3d;
+}
+
+.menu-item {
+  width: 20rem;
+  height: 15rem;
+  background-color: #b4ce64;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 2rem rgba(118, 105, 46, 0.4);
+}
+
+.menu-item i {
+  font-size: 7rem;
+  color: #222;
+  transition: color 0.5s;
+}
