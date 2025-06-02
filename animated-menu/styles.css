@@ -28,6 +28,13 @@ html {
   width: 20rem;
   height: 15rem;
   background-color: rgb(137, 235, 155);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 2rem rgba(15, 40, 16, 0.4);
+  margin: 0.3rem;
 }
 
 .menu-item i {
