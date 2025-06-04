@@ -35,34 +35,54 @@ html {
   border-radius: 1rem;
   cursor: pointer;
   box-shadow: 0 0 2rem rgba(15, 40, 16, 0.4);
-  transition: all 0.2s;
 }
 
-.menu-item:nth-child(1):hover{
+.menu-item:hover {
+  background-color: #fff;
+  box-shadow: 0 0 3rem rgba(4, 82, 10, 0.6);
+}
+
+.menu-item:not(.center-item) {
+  opacity: 0;
+}
+
+.menu-item:nth-child(1) {
   transform: rotateY(-70deg) rotateX(20deg) translateX(-50rem)
     translateY(-15rem) translateZ(-50rem);
+  transition: transform 1.2s ease-in, opacity 1s ease-in, background-color 0.5s,
+    box-shadow 0.5s;
 }
-
-.menu-item:nth-child(2):hover{
+.menu-item:nth-child(2) {
   transform: rotateY(-70deg) rotateX(20deg) translateX(-20rem) translateY(-5rem)
     translateZ(-20rem);
+  transition: transform 1s ease-in, opacity 1s ease-in, background-color 0.5s,
+    box-shadow 0.5s;
 }
-
-.menu-item:nth-child(3):hover{
+.menu-item:nth-child(3) {
   transform: rotateX(20deg);
+  transition: transform 1s ease-in, background-color 0.5s, box-shadow 0.5s;
 }
 
-.menu-item:nth-child(4):hover{
+.menu-item:nth-child(4) {
   transform: rotateY(70deg) rotateX(20deg) translateX(20rem) translateY(-5rem)
     translateZ(-20rem);
+  transition: transform 1s ease-in, opacity 1s ease-in, background-color 0.5s,
+    box-shadow 0.5s;
 }
 
-.menu-item:nth-child(5):hover{
+.menu-item:nth-child(5) {
   transform: rotateY(70deg) rotateX(20deg) translateX(50rem) translateY(-15rem)
     translateZ(-50rem);
+  transition: transform 1.2s ease-in, opacity 1s ease-in, background-color 0.5s,
+    box-shadow 0.5s;
 }
 
 .menu-item i {
   font-size: 7rem;
-  color: #222
+  color: #222;
+  transition: color 0.5s;
+}
+
+.menu-item:hover i {
+  color: #fff;
 }
