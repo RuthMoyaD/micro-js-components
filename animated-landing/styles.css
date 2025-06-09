@@ -37,3 +37,17 @@ html {
   color: #f17229;
   transition: color 0.2s;
 }
+
+.btn {
+  width: 15rem;
+  height: 4rem;
+  background-color: #f17229;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  border: none;
+  margin-top: 3.5rem;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
