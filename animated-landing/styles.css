@@ -51,3 +51,18 @@ html {
   transition: background-color 0.3s;
   cursor: pointer;
 }
+
+.boxes {
+  width: 40%;
+  height: 100%;
+}
+
+.box div {
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  opacity: 0.8;
+  box-shadow: 0.1rem 0.1rem 0.1rem #eee inset, -0.1rem -0.1rem 0.1rem #eee inset,
+    0.1rem 0.1rem 3.5rem rgba(255, 255, 255, 0.2),
+    -0.1rem -0.1rem 3.5rem rgba(255, 255, 255, 0.2);
+}
