@@ -84,3 +84,29 @@ html {
     0.1rem 0.1rem 3.5rem rgba(255, 255, 255, 0.2),
     -0.1rem -0.1rem 3.5rem rgba(255, 255, 255, 0.2);
 }
+
+.top-side {
+  transform: rotateX(90deg) translateZ(3.5rem);
+}
+
+.bottom-side {
+  transform: rotateX(90deg) translateZ(-3.5rem);
+}
+
+.front-side {
+  transform: translateZ(3.5rem);
+}
+
+.back-side {
+  transform: translateZ(-3.5rem);
+}
+
+.right-side {
+  transform: rotateY(-90deg) translateX(3.5rem);
+  transform-origin: right;
+}
+
+.left-side {
+  transform: rotateY(90deg) translateX(-3.5rem);
+  transform-origin: left;
+}
