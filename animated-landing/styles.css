@@ -85,6 +85,34 @@ html {
     -0.1rem -0.1rem 3.5rem rgba(255, 255, 255, 0.2);
 }
 
+.box-1 div {
+  background-color: #efd81d;
+}
+
+.box-2 div {
+  background-color: #61dbfb;
+}
+
+.box-3 div {
+  background-color: #41b883;
+}
+
+.box-4 div {
+  background-color: #b52e31;
+}
+
+.box-5 div {
+  background-color: #43853d;
+}
+
+.box-6 div {
+  background-color: #cf649a;
+}
+
+.box-7 div {
+  background-color: #e04e39;
+}
+
 .top-side {
   transform: rotateX(90deg) translateZ(3.5rem);
 }
