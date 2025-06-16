@@ -149,37 +149,37 @@ html {
 }
 
 .box-1 div {
-  /* JS */
+  /* Cardio */
   background-color: #efd81d;
 }
 
 .box-2 div {
-  /* React */
+  /* Strength */
   background-color: #61dbfb;
 }
 
 .box-3 div {
-  /* Vue */
+  /* HIIT */
   background-color: #41b883;
 }
 
 .box-4 div {
-  /* Angular */
+  /* Yoga */
   background-color: #b52e31;
 }
 
 .box-5 div {
-  /* Node */
+  /* Stretching */
   background-color: #43853d;
 }
 
 .box-6 div {
-  /* Sass */
+  /* Mobility */
   background-color: #cf649a;
 }
 
 .box-7 div {
-  /* Ember */
+  /* Running */
   background-color: #e04e39;
 }
 
