@@ -35,3 +35,26 @@
   letter-spacing: 1px;
   text-align: right;
 }
+
+.btn {
+  width: 170px;
+  padding: 10px 15px;
+  margin-right: 20px;
+  border-radius: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border: 2px solid rgb(200, 238, 226);
+  transition: transform 0.3s;
+}
+
+.login-btn {
+  background-color: rgba(200, 238, 226, 0.3);
+}
+
+.signup-btn {
+  background-color: transparent;
+}
