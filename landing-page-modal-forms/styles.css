@@ -59,6 +59,14 @@
   background-color: transparent;
 }
 
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
 .form-container {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.7);
@@ -69,6 +77,39 @@
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s;
+}
+
+.disable {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  width: 400px;
+  background: linear-gradient(rgba(67, 150, 91, 0.8), rgba(132, 185, 129, 0.6)),
+    url(images/bg.jpg) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.display {
+  opacity: 1;
+  visibility: visible;
+}
+
+.x-btn {
+  position: absolute;
+  right: 20px;
+  font-size: 50px;
+  color: #222;
+  cursor: pointer;
 }
 
 .form-header {
@@ -128,7 +169,7 @@
   border: none;
   outline: none;
   border-radius: 30px;
-  background-color: #d867d8;
+  background-color: #225825;
   color: #fff;
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
