@@ -23,3 +23,33 @@
   width: 100%;
   object-fit: cover;
 }
+
+.arrows-visibility {
+  opacity: 0;
+}
+
+.control:hover {
+  opacity: 1;
+}
+
+.control {
+  position: absolute;
+  top: 0;
+  width: 15vw;
+  height: 100vh;
+  background-color: rgba(92, 94, 97, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity 0.5s linear;
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: 0;
+}
