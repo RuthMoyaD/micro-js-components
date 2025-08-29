@@ -53,3 +53,38 @@
 .right-arrow {
   right: 0;
 }
+
+.line {
+  width: 0.2rem;
+  height: 10rem;
+  background-color: rgb(221, 213, 213);
+}
+
+.line-1 {
+  transform: rotate(20deg) translateY(0.35rem);
+}
+
+.line-2 {
+  transform: rotate(-20deg) translateY(-0.35rem);
+}
+
+.line-3 {
+  transform: rotate(-20deg) translateY(0.35rem);
+}
+
+.line-4 {
+  transform: rotate(20deg) translateY(-0.35rem);
+}
+
+.play-pause {
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.play-pause i {
+  color: #ffffff;
+  font-size: 50px;
+}
