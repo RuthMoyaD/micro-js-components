@@ -15,3 +15,12 @@ body {
   display: grid;
   place-items: center;
 }
+
+.wrapper {
+  width: 60rem;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  perspective: 100rem;
+  perspective-origin: 76% 27%;
+}
